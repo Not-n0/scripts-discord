@@ -36,8 +36,19 @@ titleLabel.Text = "Verificación de Clave"
 titleLabel.Font = Enum.Font.SourceSansBold
 titleLabel.Parent = mainFrame
 
+local descriptLabel = Instance.new("TextLabel1")
+descripLabel.Name = "TitleLabel1"
+descriptLabel.Size = UDim2.new(1, 0, 0, 30)
+descriptLabel.Position = UDim2.new(0, 0, 0, 0)
+descriptLabel.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
+descriptLabel.TextColor3 = Color3.new(1, 1, 1)
+descriptLabel.TextScaled = true
+descriptLabel.Text = "Tienes que darle a get key para copiar el link del grupo unete y dentro rncontraras la key"
+descriptLabel.Font = Enum.Font.SourceSansBold
+descriptLabel.Parent = mainFrame
+
 local keyTextBox = Instance.new("TextBox")
-keyTextBox.Name = "KeyTextBox"
+keyTextBox.Name = "introduce la clave"
 keyTextBox.Size = UDim2.new(0.9, 0, 0, 30)
 keyTextBox.Position = UDim2.new(0.05, 0, 0, 40)
 keyTextBox.PlaceholderText = "Introduce la clave aquí..."
